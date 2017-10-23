@@ -2,14 +2,11 @@
 #### What is a class?
 ```ruby 
 Your Answer:
-
-
-
-
-
-
-
-
+|
+|
+|
+|
+|
 ```
 
 #### What is an Object?
