@@ -53,7 +53,8 @@ Your Answer:
 ```ruby
 ["one", "two", "three"].map {|n| puts n.upcase }
 ```
-``` Your Answer:
+``` 
+Your Answer:
 
 
 
@@ -71,7 +72,8 @@ For example:
 hash = { 'abc' => 'hello', 'another_key' => '123', '8080' => 'third' }
 your_function(hash) #Result: ['abc'. '8080', 'another_key']
 ```
-``` Your Answer:
+``` 
+Your Answer:
 
 
 
@@ -117,7 +119,8 @@ class B
 end
 
 ```
-``` Your Answer:
+``` 
+Your Answer:
 
 
 
@@ -140,7 +143,8 @@ end
 A.new.meth_1
 A.new.meth_2
 ```
-``` Your Answer:
+``` 
+Your Answer:
 
 
 
