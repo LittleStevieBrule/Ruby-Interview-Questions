@@ -16,7 +16,7 @@ Answer:
   Also, modules provide as a mechanism for multiple inheritance via mix-ins and 
   cannot be instantiated like classes can.
 
-#### Explain the ruby idiom:   `a ||= b`
+#### Explain the ruby idiom: `  a ||= b   `
 
 Answer:
 if `a` then `a` else `a` equals `b`
@@ -68,7 +68,7 @@ end
 ```
 Answer: b
 
-#### Given the following code what is the result of   `A.new.meth_1`?   `A.new.meth_2`?
+#### Given the following code what is the result of `  A.new.meth_1   `?    `  A.new.meth_2   `?
 ```ruby
 class A
   def meth_1
