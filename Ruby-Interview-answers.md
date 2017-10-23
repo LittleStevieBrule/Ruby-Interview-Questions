@@ -4,20 +4,20 @@ A text-book answer: classes are a blue-print for constructing computer models
 for real or virtual objects
 In reality: classes hold data, have methods that interact with that data,
    and are used to instantiate objects.
-   
+
 #### What is an Object?
 Answer:
   An instance of a class.
   To some, it's also the root class in ruby (Object).
-  
+
 #### What is a module? Can you tell me the difference between classes and modules?
-Answer: 
+Answer:
   Modules serve as a mechanism for namespaces.
-  Also, modules provide as a mechanism for multiple inheritance via mix-ins and 
+  Also, modules provide as a mechanism for multiple inheritance via mix-ins and
   cannot be instantiated like classes can.
 
 #### Explain the following code:
-```ruby 
+```ruby
 a ||= 'a'   
 ```
 
@@ -27,7 +27,7 @@ if `a` then `a` else `a` equals `'a'`
 ```ruby
 a || a = 'a'
 ```
-##### What does the following code exaluate to?
+##### What does the following code evaluate to?
 ```ruby
 ["one", "two", "three"].map {|n| puts n.upcase }
 ```
@@ -41,7 +41,7 @@ your_function(hash) #Result: ['abc'. '8080', 'another_key']
 ```
 Answer:
 ```ruby
-def meth(hash) 
+def meth(hash)
   hash.keys.map{|key| key.to_s}.sort_by { |key| key.length }
 end
 ```
@@ -54,11 +54,11 @@ c) `B.test`
 
 ```ruby
 module Mod
-  
+
   def test
     'test'
   end
-  
+
 end
 
 class A
@@ -80,7 +80,7 @@ class A
   end
 end
 
-class A 
+class A
   def meth_2
     2
   end
@@ -89,9 +89,9 @@ end
 A.new.meth_1
 A.new.meth_2
 ```
-Answer: 
+Answer:
 ```ruby
 A.new.meth_1 #=> 1
 A.new.meth_2 #=> 2
-  
+
 ```
