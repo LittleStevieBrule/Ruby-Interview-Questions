@@ -16,13 +16,17 @@ Answer:
   Also, modules provide as a mechanism for multiple inheritance via mix-ins and 
   cannot be instantiated like classes can.
 
-#### Explain the ruby idiom: `  a ||= b   `
+#### Explain the following code:
+```ruby 
+a ||= 'a'   
+```
 
 Answer:
-if `a` then `a` else `a` equals `b`
+if `a` then `a` else `a` equals `'a'`
 
-`a || a = b `
-
+```ruby
+a || a = 'a'
+```
 ##### What does the following code exaluate to?
 ```ruby
 ["one", "two", "three"].map {|n| puts n.upcase }
@@ -68,7 +72,7 @@ end
 ```
 Answer: b
 
-#### Given the following code what is the result of `  A.new.meth_1   `?    `  A.new.meth_2   `?
+#### What is the result of the following code?
 ```ruby
 class A
   def meth_1
@@ -81,6 +85,9 @@ class A
     2
   end
 end
+
+A.new.meth_1
+A.new.meth_2
 ```
 Answer: 
 ```ruby
