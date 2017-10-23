@@ -1,7 +1,8 @@
 # Ruby Interview Questions
 #### What is a class?
-``` 
+```ruby 
 Your Answer:
+
 
 
 
