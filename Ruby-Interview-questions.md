@@ -1,6 +1,7 @@
 # Ruby Interview Questions
 #### What is a class?
-``` Your Answer:
+``` 
+Your Answer:
 
 
 
@@ -11,7 +12,8 @@
 ```
 
 #### What is an Object?
-``` Your Answer:
+``` 
+Your Answer:
 
 
 
@@ -21,7 +23,8 @@
 
 ```  
 #### What is a module? Can you tell me the difference between classes and modules?
-``` Your Answer:
+``` 
+Your Answer:
 
 
 
@@ -34,7 +37,8 @@
 ```ruby
 a ||= 'a'   
 ```
-``` Your Answer:
+``` 
+Your Answer:
 
 
 
