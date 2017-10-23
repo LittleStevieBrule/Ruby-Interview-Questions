@@ -1,5 +1,6 @@
 # Ruby Interview Questions
 #### What is a class?
+<<<<<<< HEAD
 >
 >
 >
@@ -14,14 +15,41 @@
 >
 >
 >
+=======
+```ruby 
+Your Answer:
+   
+    
+  
+  
+  
+  test
+  
+  
+```
+
+#### What is an Object?
+``` 
+Your Answer:
+
+>>>>>>> 520b293899dfb841c27e8951ce3b087f7acd5b85
 
 
 #### What is a module? Can you tell me the difference between classes and modules?
+<<<<<<< HEAD
 >
 >
 >
 >
 >
+=======
+``` 
+Your Answer:
+
+
+
+
+>>>>>>> 520b293899dfb841c27e8951ce3b087f7acd5b85
 
 
 
@@ -29,17 +57,30 @@
 ```ruby
 a ||= 'a'   
 ```
+<<<<<<< HEAD
 >
 >
 >
 >
 >
 >
+=======
+``` 
+Your Answer:
+
+
+
+
+
+
+
+>>>>>>> 520b293899dfb841c27e8951ce3b087f7acd5b85
 
 ##### What does the following code evaluate to?
 ```ruby
 ["one", "two", "three"].map {|n| puts n.upcase }
 ```
+<<<<<<< HEAD
 >
 >
 >
@@ -51,6 +92,20 @@ a ||= 'a'
 >
 >
 >
+=======
+``` 
+Your Answer:
+
+
+
+
+
+
+
+
+
+```
+>>>>>>> 520b293899dfb841c27e8951ce3b087f7acd5b85
 
 #### Define a function that that sorts the keys of a hash by length
 For example:
@@ -58,6 +113,7 @@ For example:
 hash = { 'abc' => 'hello', 'another_key' => '123', '8080' => 'third' }
 your_function(hash) #Result: ['abc'. '8080', 'another_key']
 ```
+<<<<<<< HEAD
 >
 >
 >
@@ -73,6 +129,21 @@ your_function(hash) #Result: ['abc'. '8080', 'another_key']
 >
 >
 >
+=======
+``` 
+Your Answer:
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 520b293899dfb841c27e8951ce3b087f7acd5b85
 
 
 
@@ -101,12 +172,21 @@ class B
 end
 
 ```
+<<<<<<< HEAD
 >
 >
 >
 >
 >
 >
+=======
+``` 
+Your Answer:
+
+
+
+```
+>>>>>>> 520b293899dfb841c27e8951ce3b087f7acd5b85
 
 #### What is the result of the following code?
 ```ruby
@@ -125,9 +205,19 @@ end
 A.new.meth_1
 A.new.meth_2
 ```
+<<<<<<< HEAD
 >
 >
 >
 >
 >
 > 
+=======
+``` 
+Your Answer:
+
+
+
+
+```
+>>>>>>> 520b293899dfb841c27e8951ce3b087f7acd5b85
