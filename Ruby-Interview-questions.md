@@ -1,28 +1,32 @@
 # Ruby Interview Questions
 #### What is a class?
->
->
-> 
->
->
->
->
+> |
+> |
+> |
+> |
+> |
+> |
+> |
 
 
 #### What is an Object?
->
->
->
->
->
+> |
+> |
+> |
+> |
+> |
+> |
+> |
 
 
 #### What is a module? Can you tell me the difference between classes and modules?
->
->
->
->
->
+> |
+> |
+> |
+> |
+> |
+> |
+> |
 
 
 
@@ -30,28 +34,29 @@
 ```ruby
 a ||= 'a'   
 ```
->
->
->
->
->
->
+> |
+> |
+> |
+> |
+> |
+> |
+> |
+
+
+
 
 ##### What does the following code evaluate to?
 ```ruby
 ["one", "two", "three"].map {|n| puts n.upcase }
 ```
->
->
->
->
->
->
->
->
->
->
->
+> |
+> |
+> |
+> |
+> |
+> |
+> |
+
 
 #### Define a function that that sorts the keys of a hash by length
 For example:
@@ -59,21 +64,20 @@ For example:
 hash = { 'abc' => 'hello', 'another_key' => '123', '8080' => 'third' }
 your_function(hash) #Result: ['abc'. '8080', 'another_key']
 ```
->
->
->
->
->
->
->
->
->
->
->
->
->
->
->
+> |
+> |
+> |
+> |
+> |
+> |
+> |
+> |
+> |
+> |
+> |
+> |
+> |
+> |
 
 
 
@@ -102,12 +106,15 @@ class B
 end
 
 ```
->
->
->
->
->
->
+> |
+> |
+> |
+> |
+> |
+> |
+> |
+
+
 
 #### What is the result of the following code?
 ```ruby
@@ -126,9 +133,10 @@ end
 A.new.meth_1
 A.new.meth_2
 ```
->
->
->
->
->
->
+> |
+> |
+> |
+> |
+> |
+> |
+> |
