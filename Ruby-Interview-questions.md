@@ -68,7 +68,7 @@ Your Answer:
 </pre>
 
 
-##### What does the following code evaluate to?
+#### What does the following code evaluate to?
 ```ruby
 ["one", "two", "three"].map {|n| puts n.upcase }
 ```
