@@ -1,12 +1,17 @@
 # Ruby Interview Questions
 #### What is a class?
-> |
-> |
-> |
-> |
-> |
-> |
-> |
+<pre>
+
+
+
+
+
+
+
+
+
+
+</pre>
 
 
 #### What is an Object?
