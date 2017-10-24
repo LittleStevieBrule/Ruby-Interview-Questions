@@ -65,9 +65,6 @@ Your Answer:
 
 
 
-
-
-
 </pre>
 
 
@@ -77,11 +74,6 @@ Your Answer:
 ```
 <pre>
 Your Answer:
-
-
-
-
-
 
 
 
@@ -148,6 +140,11 @@ end
 ```
 <pre>
 Your Answer:
+
+
+
+
+
 
 
 
