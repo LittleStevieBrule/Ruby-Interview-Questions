@@ -47,9 +47,10 @@ Your Answer:
 
 
 
+
+
+
 </pre>
-
-
 
 #### Explain the following code:
 ```ruby
