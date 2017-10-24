@@ -1,6 +1,7 @@
 # Ruby Interview Questions
 #### What is a class?
 <pre>
+Your Answer:
 
 
 
@@ -15,23 +16,35 @@
 
 
 #### What is an Object?
-> |
-> |
-> |
-> |
-> |
-> |
-> |
+<pre>
+Your Answer:
+
+
+
+
+
+
+
+
+
+
+</pre>
 
 
 #### What is a module? Can you tell me the difference between classes and modules?
-> |
-> |
-> |
-> |
-> |
-> |
-> |
+<pre>
+Your Answer:
+
+
+
+
+
+
+
+
+
+
+</pre>
 
 
 
@@ -39,28 +52,36 @@
 ```ruby
 a ||= 'a'   
 ```
-> |
-> |
-> |
-> |
-> |
-> |
-> |
+<pre>
+Your Answer:
 
 
+
+
+
+
+
+
+
+</pre>
 
 
 ##### What does the following code evaluate to?
 ```ruby
 ["one", "two", "three"].map {|n| puts n.upcase }
 ```
-> |
-> |
-> |
-> |
-> |
-> |
-> |
+<pre>
+Your Answer:
+
+
+
+
+
+
+
+
+
+</pre>
 
 
 #### Define a function that that sorts the keys of a hash by length
@@ -69,20 +90,22 @@ For example:
 hash = { 'abc' => 'hello', 'another_key' => '123', '8080' => 'third' }
 your_function(hash) #Result: ['abc'. '8080', 'another_key']
 ```
-> |
-> |
-> |
-> |
-> |
-> |
-> |
-> |
-> |
-> |
-> |
-> |
-> |
-> |
+<pre>
+Your Answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+</pre>
 
 
 
@@ -111,13 +134,18 @@ class B
 end
 
 ```
-> |
-> |
-> |
-> |
-> |
-> |
-> |
+<pre>
+Your Answer:
+
+
+
+
+
+
+
+
+
+</pre>
 
 
 
@@ -138,10 +166,15 @@ end
 A.new.meth_1
 A.new.meth_2
 ```
-> |
-> |
-> |
-> |
-> |
-> |
-> |
+<pre>
+Your Answer:
+
+
+
+
+
+
+
+
+
+</pre>
