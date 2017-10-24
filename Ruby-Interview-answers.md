@@ -1,50 +1,20 @@
 # Ruby Interview Questions
-#### What is a class?
-A text-book answer: classes are a blue-print for constructing computer models
-for real or virtual objects
-In reality: classes hold data, have methods that interact with that data,
-   and are used to instantiate objects.
 
-#### What is an Object?
-Answer:
-  An instance of a class.
-  To some, it's also the root class in ruby (Object).
-
-#### What is a module? Can you tell me the difference between classes and modules?
-Answer:
-  Modules serve as a mechanism for namespaces.
-  Also, modules provide as a mechanism for multiple inheritance via mix-ins and
-  cannot be instantiated like classes can.
-
-#### Explain the following code:
-```ruby
-a ||= 'a'   
-```
-
-Answer:
-if `a` then `a` else `a` equals `'a'`
-
-```ruby
-a || a = 'a'
-```
 ##### What does the following code evaluate to?
 ```ruby
-["one", "two", "three"].map {|n| puts n.upcase }
-```
-Answer: `[nil,nil,nil]`
-
-#### Define a function that that sorts the keys of a hash by length
-For example:
-```ruby
-hash = { 'abc' => 'hello', 'another_key' => '123', '8080' => 'third' }
-your_function(hash) #Result: ['abc'. '8080', 'another_key']
+[1, 2, 3].map {|n| puts n + 1 }
+[1, 2, 3].each {|n| puts n + 1}
 ```
 Answer:
+
 ```ruby
-def meth(hash)
-  hash.keys.map{|key| key.to_s}.sort_by { |key| key.length }
-end
+[nil, nil, nil]
+[1, 2, 3]
 ```
+
+
+
+
 #### Which of the following will throw a NoMethodError Given the below code?
 a) `A.new.test`
 
@@ -78,20 +48,31 @@ class A
   def meth_1
     1
   end
+
+  def meth_2
+    2
+  end
+
 end
 
 class A
-  def meth_2
-    2
+  def meth_1
+    'one'
+  end
+
+  def meth_3
+    'three'
   end
 end
 
 A.new.meth_1
 A.new.meth_2
+A.new.meth_3
 ```
 Answer:
 ```ruby
-A.new.meth_1 #=> 1
+A.new.meth_1 #=> 'one'
 A.new.meth_2 #=> 2
+A.new.meth_3 #=> 'three'
 
 ```
