@@ -12,8 +12,6 @@ Your Answer:
 
 
 
-
-
 </pre>
 
 
@@ -68,6 +66,8 @@ Your Answer:
 
 
 
+
+
 </pre>
 
 
@@ -77,6 +77,8 @@ Your Answer:
 ```
 <pre>
 Your Answer:
+
+
 
 
 
@@ -101,6 +103,7 @@ your_function(hash) #Result: ['abc'. '8080', 'another_key']
 ```
 <pre>
 Your Answer:
+
 
 
 
@@ -154,6 +157,8 @@ Your Answer:
 
 
 
+
+
 </pre>
 
 
@@ -177,6 +182,9 @@ A.new.meth_2
 ```
 <pre>
 Your Answer:
+
+
+
 
 
 
