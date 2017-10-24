@@ -14,8 +14,6 @@ Your Answer:
 
 
 
-
-
 </pre>
 
 
@@ -34,17 +32,12 @@ Your Answer:
 
 
 
-
-
 </pre>
 
 
 #### What is a module? Can you tell me the difference between classes and modules?
 <pre>
 Your Answer:
-
-
-
 
 
 
